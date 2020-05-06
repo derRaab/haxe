@@ -84,6 +84,7 @@ Std.parseInt("") == null;
 Std.parseInt("abcd") == null;
 Std.parseInt("a10") == null;
 Std.parseInt(null) == null;
+Std.parseInt(cast 5) == null;
 Std.parseInt("0xFF") == 255;
 Std.parseInt("0x123") == 291;
 Std.parseInt("0XFF") == 255;
